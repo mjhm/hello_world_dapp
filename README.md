@@ -12,7 +12,7 @@ npm install
 ```
 Then launch the testpc server with
 ```
-npm run testrpc
+npm run ganache
 ```
 and from a separate shell
 ```
