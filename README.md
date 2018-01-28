@@ -4,6 +4,8 @@ Simple voting dapp based on [Mahesh Murthy's Medium article](https://medium.com/
 
 This updates his tutorial with new web3 1.X bindings, and packages the tutorial for easy installation.
 
+For a more complete and real starting place for building dApps see [create-react-dapp](https://github.com/mjhm/create-react-dapp).
+
 ### Installation and Usage
 
 Clone repository and run
