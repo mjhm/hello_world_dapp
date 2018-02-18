@@ -24,3 +24,6 @@ npm run http_server
 Then point your browser to `http://localhost:8000` for the web version of the voting app.
 
 The `server.js` file includes the VotingContract setup and deployment. For comparision you should be able to follow the original tutorial to get an idea of what was changed from the pre 1.0 `web3` to the 1.0 `web3` bindings.
+
+For a much more robust and complete version of this DApp see: https://github.com/mjhm/create-react-dapp
+
