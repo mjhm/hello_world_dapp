@@ -51,8 +51,6 @@ web3.eth.getAccounts()
   })
   .then((result) => {
     deployedContract = result;
-    // setProvider is needed here to work around https://github.com/ethereum/web3.js/issues/1253
-    deployedContract.setProvider(provider);
     // console.log('deployedContract', deployedContract);
     return deployedContract.methods.totalVotesFor(asciiToHex('Rama')).call();
   })
